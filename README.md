@@ -59,7 +59,7 @@ Note: this dapp is designed to work with the intended NFT smart contract, that o
     "SYMBOL": "Matic",
     "ID": 137
   },
-  "NFT_NAME": "Nerdy Coder Clones",
+  "NFT_NAME": "Mermaid Game NFT",
   "SYMBOL": "NCC",
   "MAX_SUPPLY": 1000,
   "WEI_COST": 75000000000000000,
@@ -95,7 +95,7 @@ Now you will need to create and change the `public/favicon.ico`, `public/logo192
 Remember to update the title and description the `public/index.html` file
 
 ```html
-<title>Nerdy Coder Clones</title>
+<title>Mermaid Game NFT</title>
 <meta name="description" content="Mint your Nerdy Coder Clone NFT" />
 ```
 
