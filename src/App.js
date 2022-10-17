@@ -66,19 +66,18 @@ export const ResponsiveWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
-  width: 900px;
-  @media (min-width: 900px) {
-    width: 900px;
+  width: 300px;
+  @media (min-width: 500px) {
+    width: 700px;
   }
   transition: width 0.5s;
   transition: height 0.5s;
 `;
 
 export const StyledImg = styled.img`
-  box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
 
-  background-color: var(--accent);
-  border-radius: 100%;
+  background-color: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
+  border-radius: 0%;
   width: 200px;
   @media (min-width: 900px) {
     width: 250px;
@@ -213,7 +212,7 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "var(--accent)",
+              backgroundColor: "0px 5px 11px 2px rgba(0,0,0,0.7)",
               padding: 24,
               borderRadius: 24,
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
