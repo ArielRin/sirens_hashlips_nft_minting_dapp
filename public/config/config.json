@@ -3,7 +3,7 @@
   "SCAN_LINK": "https://bscscan.com/address/0x1b7C6855d2f65ec78828fCa07cC9170088E1815c",
   "NETWORK": {
     "NAME": "Binance Smart Chain",
-    "SYMBOL": "BSC",
+    "SYMBOL": "BNB",
     "ID": 56
   },
   "NFT_NAME": "Mermaid Friends NFT ",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": 0.01,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "ToFuNFT",
-  "MARKETPLACE_LINK": "https://tofunft.com/user/0x18Ff7f454B6A3233113f51030384F49054DD27BF/items/in-wallet",
+  "MARKETPLACE_LINK": "https://tofunft.com/collection/mermaid-friends/items",
   "SHOW_BACKGROUND": true
 }
