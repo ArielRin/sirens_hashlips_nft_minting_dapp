@@ -1,6 +1,5 @@
-# Welcome to HashLips 👄
+# Welcome to HashLips
 
-![](https://github.com/ArielRin/sirens_hashlips_nft_minting_dapp/blob/main/logo.png)
 
 All the code in these repos was created and explained by HashLips on the main YouTube channel.
 
