@@ -6,9 +6,9 @@
     "SYMBOL": "BSC",
     "ID": 56
   },
-  "NFT_NAME": "Mermaid Trial NFT ",
-  "SYMBOL": "AILIE",
-  "MAX_SUPPLY": 100,
+  "NFT_NAME": "Mermaid Friends NFT ",
+  "SYMBOL": "MERMAIDFRIENDS",
+  "MAX_SUPPLY": 20,
   "WEI_COST": 75000000000000000,
   "DISPLAY_COST": 0.1,
   "GAS_LIMIT": 285000,
