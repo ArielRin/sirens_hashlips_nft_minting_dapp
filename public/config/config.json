@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x18ff7f454b6a3233113f51030384f49054dd27bf",
-  "SCAN_LINK": "https://bscscan.com/address/0x18ff7f454b6a3233113f51030384f49054dd27bf",
+  "CONTRACT_ADDRESS": "0x1b7C6855d2f65ec78828fCa07cC9170088E1815c",
+  "SCAN_LINK": "https://bscscan.com/address/0x1b7C6855d2f65ec78828fCa07cC9170088E1815c",
   "NETWORK": {
     "NAME": "Binance Smart Chain",
     "SYMBOL": "BSC",
@@ -8,11 +8,11 @@
   },
   "NFT_NAME": "Mermaid Friends NFT ",
   "SYMBOL": "MERMAIDFRIENDS",
-  "MAX_SUPPLY": 20,
-  "WEI_COST": 75000000000000000,
-  "DISPLAY_COST": 0.1,
+  "MAX_SUPPLY": 36,
+  "WEI_COST": 10000000000000000,
+  "DISPLAY_COST": 0.01,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "ToFuNFT",
-  "MARKETPLACE_LINK": "https://tofunft.com/collection/shibapunks/items",
+  "MARKETPLACE_LINK": "https://tofunft.com/user/0x18Ff7f454B6A3233113f51030384F49054DD27BF/items/in-wallet",
   "SHOW_BACKGROUND": true
 }
