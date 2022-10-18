@@ -9,10 +9,10 @@
   "NFT_NAME": "Mermaid Friends NFT ",
   "SYMBOL": "MERMAIDFRIENDS",
   "MAX_SUPPLY": 36,
-  "WEI_COST": 50000000000000000,
-  "DISPLAY_COST": 0.05,
+  "WEI_COST": 100000000000000000,
+  "DISPLAY_COST": 0.10,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "ToFuNFT",
+  "MARKETPLACE": "MermaidFriends at ToFuNFT",
   "MARKETPLACE_LINK": "https://tofunft.com/collection/mermaid-friends/items",
   "SHOW_BACKGROUND": true
 }
