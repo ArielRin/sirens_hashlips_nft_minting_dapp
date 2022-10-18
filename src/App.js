@@ -235,7 +235,7 @@ function App() {
               }}
             >
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
+                {truncate(CONFIG.CONTRACT_ADDRESS, 18)}
               </StyledLink>
             </s.TextDescription>
             <s.SpacerSmall />
@@ -282,6 +282,7 @@ function App() {
                     >
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
+                    <s.SpacerSmall />
                     <s.SpacerSmall />
                     <StyledButton
                       onClick={(e) => {
@@ -366,6 +367,15 @@ function App() {
               </>
             )}
             <s.SpacerMedium />
+            <s.TextTitle
+              style={{ textAlign: "center", color: "var(--accent-text)" }}
+            >
+              You can also find {CONFIG.NFT_NAME} on
+            </s.TextTitle>
+            <s.SpacerSmall />
+            <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
+              {CONFIG.MARKETPLACE}
+            </StyledLink>
           </s.Container>
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
@@ -378,27 +388,8 @@ function App() {
         </ResponsiveWrapper>
         <s.SpacerMedium />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-text)",
-            }}
-          >
-            Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
-            Once you make the purchase, you cannot undo this action.
-          </s.TextDescription>
+
           <s.SpacerSmall />
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-text)",
-            }}
-          >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
-          </s.TextDescription>
         </s.Container>
       </s.Container>
     </s.Screen>
