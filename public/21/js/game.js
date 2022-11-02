@@ -16,7 +16,7 @@ function init(){
 		buttons: [
 			new Button('Hit', '#ffff00', 100, 100, () => player.hit()),
 			new Button('Stand', '#ffff00', 200, 100, () => player.stand()),
-			new Button('Go', '#ffff00', 935, -430, () => game.go()),
+			new Button('Go', '#ffff00', 340, 100, () => game.go()),
 			new Button('Insurance', '#ffff00', 100, -80, () => player.insure()),
 			//new Button('Split', '#ffff00', 100, -40, () => l('split')),
 			new Button('Double', '#ffff00', 100, -40, () => player.double()),
@@ -119,7 +119,7 @@ function init(){
 			}
 			else{
 				this.startContainer = new createjs.Container();
-				var titleText = new createjs.Text('BlackJackJs', '60px Comic Sans MS', '#ffff00');
+				var titleText = new createjs.Text('Sirens Treasure Pontoon', '80px Comic Sans MS', '#ffff00');
 				titleText.center(1, 1);
 				var nameInput = new TextInput();
 				// autofocus
