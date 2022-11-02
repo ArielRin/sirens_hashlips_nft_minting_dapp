@@ -119,7 +119,7 @@ function init(){
 			}
 			else{
 				this.startContainer = new createjs.Container();
-				var titleText = new createjs.Text('Sirens Treasure Pontoon', '80px Comic Sans MS', '#ffff00');
+				var titleText = new createjs.Text('Sirens Treasure 21', '80px Comic Sans MS', '#ffff00');
 				titleText.center(1, 1);
 				var nameInput = new TextInput();
 				// autofocus
