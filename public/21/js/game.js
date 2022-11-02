@@ -14,14 +14,14 @@ function init(){
 		},
 		startContainer: false,
 		buttons: [
-			new Button('Hit', '#fff', 100, 100, () => player.hit()),
-			new Button('Stand', '#fff', 200, 100, () => player.stand()),
-			new Button('Go', '#fff', 935, -430, () => game.go()),
-			new Button('Insurance', '#fff', 100, -80, () => player.insure()),
-			//new Button('Split', '#fff', 100, -40, () => l('split')),
-			new Button('Double', '#fff', 100, -40, () => player.double()),
-			new Button('Give up', '#fff', 100, 0, () => player.giveUp()),
-			new Button('New game', '#fff', 100, -490, () => game.reset())
+			new Button('Hit', '#ffff00', 100, 100, () => player.hit()),
+			new Button('Stand', '#ffff00', 200, 100, () => player.stand()),
+			new Button('Go', '#ffff00', 935, -430, () => game.go()),
+			new Button('Insurance', '#ffff00', 100, -80, () => player.insure()),
+			//new Button('Split', '#ffff00', 100, -40, () => l('split')),
+			new Button('Double', '#ffff00', 100, -40, () => player.double()),
+			new Button('Give up', '#ffff00', 100, 0, () => player.giveUp()),
+			new Button('New game', '#ffff00', 100, -490, () => game.reset())
 		],
 		buttonContainer: false,
 		dealtChipContainer: false,
@@ -39,7 +39,7 @@ function init(){
 		message: {
 			text: false,
 			init: function(){
-				this.text = new createjs.Text(messages.bet, '40px Arial', '#fff');
+				this.text = new createjs.Text(messages.bet, '40px Comic Sans MS', '#ffff00');
 				this.text.x = 850;
 				this.text.y = 0;
 				stage.addChild(this.text);
@@ -47,7 +47,7 @@ function init(){
 		},
 
 		_alert: function(msg){
-			var alertText = new createjs.Text(msg.msg, '30px Arial', 'orange');
+			var alertText = new createjs.Text(msg.msg, '30px Comic Sans MS', 'orange');
 			alertText.x = msg.x || 745;
 			alertText.y = 120;
 			stage.addChild(alertText);
@@ -64,9 +64,9 @@ function init(){
 		over: function(){
 			['userName', 'chips', 'funds'].forEach(v => localStorage.removeItem('BlackJackJs-' + v));
 			stage.removeAllChildren();
-			var gameOverText = new createjs.Text('Game Over', '50px Arial', '#fff');
+			var gameOverText = new createjs.Text('Game Over', '50px Comic Sans MS', '#ffff00');
 			gameOverText.center(1, 1);
-			var replayText = new createjs.Text('Replay', '30px Arial', '#fff');
+			var replayText = new createjs.Text('Replay', '30px Comic Sans MS', '#ffff00');
 			replayText.center(1);
 			replayText.y = 400;
 			var hit = new createjs.Shape();
@@ -119,7 +119,7 @@ function init(){
 			}
 			else{
 				this.startContainer = new createjs.Container();
-				var titleText = new createjs.Text('BlackJackJs', '60px Arial', '#fff');
+				var titleText = new createjs.Text('BlackJackJs', '60px Comic Sans MS', '#ffff00');
 				titleText.center(1, 1);
 				var nameInput = new TextInput();
 				// autofocus
@@ -132,7 +132,7 @@ function init(){
 				nameInput.y = 400;
 				nameInput._visiblePostCursorText.text = 'Your name';
 
-				var submitText = new createjs.Text('OK', '30px Arial', '#fff');
+				var submitText = new createjs.Text('OK', '30px Comic Sans MS', '#ffff00');
 				submitText.x = 640;
 				submitText.y = 403;
 				submitText.cursor = 'Pointer';
@@ -152,7 +152,7 @@ function init(){
 		},
 
 		start: function(){
-			player.name.text = new createjs.Text(player.name.value, '30px Arial', '#fff');
+			player.name.text = new createjs.Text(player.name.value, '30px Comic Sans MS', '#ffff00');
 			player.name.text.center();
 			player.name.text.y = 600;
 			stage.addChild(player.name.text);
@@ -296,7 +296,7 @@ function init(){
 			stage.addChild(this.buttonContainer);
 
 			this.buttons.forEach(function(b){
-				var button = new createjs.Text(b.text, '30px Arial', b.color);
+				var button = new createjs.Text(b.text, 'Bold 30px Comic Sans MS', b.color);
 				button.x = b.x;
 				button.y = b.y;
 				var hit = new createjs.Shape();
@@ -447,7 +447,7 @@ function init(){
 		fundsText: {
 			text: false,
 			init: function(){
-				this.text = new createjs.Text(player.funds, '30px Arial', '#fff');
+				this.text = new createjs.Text(player.funds, '30px Comic Sans MS', '#ffff00');
 				this.text.x = 880;
 				this.text.y = 590;
 				stage.addChild(this.text);
