@@ -202,6 +202,28 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.gif" : null}
       >
+
+      <s.TextTitle
+        style={{
+          textAlign: "center",
+          color: "var(--accent-text)",
+        }}
+      >
+
+
+                  <StyledLink href="https://swap.sirenstreasure.tk" target="_blank" rel="noopener noreferrer">Exchange         </StyledLink>
+
+                  <StyledLink href="https://docs.sirenstreasure.tk" color='#fff' target="_blank" rel="noopener noreferrer">Docs            </StyledLink>
+
+
+                  <StyledLink href="https://github.com/ArielRin" target="_blank" rel="noopener noreferrer">Github            </StyledLink>
+
+                  <StyledLink href="https://twitter.com/SirenTrove_DEX" target="_blank" rel="noopener noreferrer">Twitter            </StyledLink>
+
+          
+
+      </s.TextTitle>
+
         <StyledLogo alt={"logo"} src={"/config/images/logo.gif"} />
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
