@@ -66,9 +66,9 @@ export const ResponsiveWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
-  width: 300px;
+  width: 450px;
   @media (min-width: 500px) {
-    width: 700px;
+    width: 900px;
   }
   transition: width 0.5s;
   transition: height 0.5s;
@@ -209,18 +209,13 @@ function App() {
           color: "var(--accent-text)",
         }}
       >
-
-
-                  <StyledLink href="https://swap.sirenstreasure.tk" target="_blank" rel="noopener noreferrer">Exchange         </StyledLink>
-
-                  <StyledLink href="https://docs.sirenstreasure.tk" color='#fff' target="_blank" rel="noopener noreferrer">Docs            </StyledLink>
-
-
-                  <StyledLink href="https://github.com/ArielRin" target="_blank" rel="noopener noreferrer">Github            </StyledLink>
-
-                  <StyledLink href="https://twitter.com/SirenTrove_DEX" target="_blank" rel="noopener noreferrer">Twitter            </StyledLink>
-
-          
+          <StyledLink href="https://swap.sirenstreasure.tk" target="_blank" rel="noopener noreferrer">Exchange         </StyledLink>
+          {" -- "}
+          <StyledLink href="https://docs.sirenstreasure.tk" color='#fff' target="_blank" rel="noopener noreferrer">Docs            </StyledLink>
+          {" -- "}
+          <StyledLink href="https://github.com/ArielRin" target="_blank" rel="noopener noreferrer">Github            </StyledLink>
+          {" -- "}
+          <StyledLink href="https://twitter.com/SirenTrove_DEX" target="_blank" rel="noopener noreferrer">Twitter            </StyledLink>
 
       </s.TextTitle>
 
