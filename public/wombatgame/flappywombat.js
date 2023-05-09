@@ -96,7 +96,7 @@ function draw(){
 
     bY += gravity;
 
-    ctx.fillStyle = "#000";
+    ctx.fillStyle = "#fff";
     ctx.font = "20px Verdana";
     ctx.fillText("Score : "+score,10,cvs.height-20);
 
