@@ -10,15 +10,15 @@ var pipeNorth = new Image();
 var pipeSouth = new Image();
 
 wombat.src = "images/wombat.png";
-bg.src = "images/bg.png";
-fg.src = "images/fg.png";
+bg.src = "images/fg.png";
+fg.src = "images/fg2.png";
 pipeNorth.src = "images/pipeNorth.png";
 pipeSouth.src = "images/pipeSouth.png";
 
 
 // some variables
 
-var gap = 85;
+var gap = 99;
 var constant;
 
 var bX = 10;
@@ -98,7 +98,7 @@ function draw(){
 
     ctx.fillStyle = "#fff";
     ctx.font = "20px Verdana";
-    ctx.fillText("Score : "+score,10,cvs.height-20);
+    ctx.fillText("$WOMBATS Earned : "+score,10,cvs.height-20);
 
     requestAnimationFrame(draw);
 
