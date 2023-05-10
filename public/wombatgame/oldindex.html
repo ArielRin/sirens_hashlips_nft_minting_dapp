@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Walkabout Wombat by Maximus</title>
-    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+
   </head>
   <body>
    <h3>Walkabout Wombat Clone Test</h3>
@@ -10,6 +10,8 @@
    <canvas id="canvas" width="288" height="512"></canvas>
 
    <script>
+   const provider = new ethers.providers.Web3Provider(web3.currentProvider);
+      const signer = provider.getSigner();
    var cvs = document.getElementById("canvas");
    var ctx = cvs.getContext("2d");
 
@@ -119,15 +121,5 @@
    draw();
 
    </script>
-     </body>
-
-   // web3 code
-
-   // check if Web3 is available
-   if (typeof web3 !== 'undefined') {
-     // create a new instance of Web3 using the provider of the current web3 object
-     web3 = new Web3(web3.currentProvider);
-   } else {
-     // set the provider to the Rinkeby testnet using Infura
-     web3 = new Web3(new Web3.providers.Http
+  </body>
 </html>
