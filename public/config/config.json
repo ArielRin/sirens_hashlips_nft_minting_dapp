@@ -2,19 +2,19 @@
   "CONTRACT_ADDRESS": "0x1b7C6855d2f65ec78828fCa07cC9170088E1815c",
   "SCAN_LINK": "https://bscscan.com/address/0x1b7C6855d2f65ec78828fCa07cC9170088E1815c",
   "NETWORK": {
-    "NAME": "Binance Smart Chain",
-    "SYMBOL": "BNB",
-    "ID": 56
+    "NAME": "Redlight Chain",
+    "SYMBOL": "REDLC",
+    "ID": 2611
   },
   "SITE_NAME": "Sirens Treasure Exchange",
   "SITE_LINK": "https://sirenstreasure.tk",
   "NFT_NAME": "Mermaid Friends NFT ",
   "SYMBOL": "MERMAIDFRIENDS",
   "MAX_SUPPLY": 36,
-  "WEI_COST": 100000000000000000,
-  "DISPLAY_COST": 0.10,
+  "WEI_COST": 400000000000000000000,
+  "DISPLAY_COST": 400,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Trade your Collection at ToFuNFT",
+  "MARKETPLACE": "Trade your Collection at Opensea",
   "MARKETPLACE_LINK": "https://tofunft.com/collection/mermaid-friends/items",
   "SHOW_BACKGROUND": true
 }
